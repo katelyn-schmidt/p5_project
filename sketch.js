@@ -9,10 +9,14 @@ let lives;
 
 function preload() {
 
-  trees = loadImage("http://localhost:8000/assets/trees.jpg");
-  apple = loadImage("http://localhost:8000/assets/apple6.png");
-  basket = loadImage("http://localhost:8000/assets/basket3.png");
-  apple2 = loadImage("http://localhost:8000/assets/apple6.png");
+  // trees = loadImage("http://localhost:8000/assets/trees.jpg");
+  // apple = loadImage("http://localhost:8000/assets/apple6.png");
+  // basket = loadImage("http://localhost:8000/assets/basket3.png");
+  // apple2 = loadImage("http://localhost:8000/assets/apple6.png");
+  trees = loadImage("assets/trees.jpg");
+  apple = loadImage("assets/apple6.png");
+  basket = loadImage("assets/basket3.png");
+  apple2 = loadImage("assets/apple6.png");
 }
 
 function setup() {
